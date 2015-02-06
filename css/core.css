@@ -1,0 +1,84 @@
+body {
+    background-color: #000;
+    background-image: url(http://silverfox.local/960/images/150112-N-TX848-004.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.red {
+    border-bottom-style: solid;
+    border-color: red;
+    border-color: rgba(255, 0, 0, 0.6);
+    border-radius: 3em;
+    border-width: medium;
+    height: 50px;
+}
+.green {
+    border-bottom-style: solid;
+    border-color: green;
+    border-color: rgba(0, 255, 0, 0.6);
+    border-radius: 3em;
+    border-width: medium;
+    height: 50px;
+}
+.blue {
+    border-bottom-style: solid;
+    border-color: blue;
+    border-color: rgba(0, 0, 255, 0.6);
+    border-radius: 3em;
+    border-width: medium;
+    height: 50px;
+}
+.red-box {
+    background-color: red;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+}
+.green-box {
+    background-color: green;
+    background-color: rgba(0, 255, 0, 0.6);
+    height: 60px;
+    width: 100%;
+}
+.blue-box {
+    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.6);
+    height: 60px;
+    width: 100%;
+}
+.yellow-box {
+    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.6);
+    height: 60px;
+    width: 100%;
+}
+/*Chart One style*/
+.chart-height-200 {
+height: 200px;
+}
+
+.chart-height-300 {
+height: 300px;
+}
+
+.footer {
+	background:#292929;
+	width:100%;
+	height:58px;
+	position: absolute, relative;
+	bottom:0;
+	left:0;
+}
+
+.grad {
+  background: -webkit-linear-gradient(rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(29,29,29,0.4), rgba(29,29,29,0.8)); /*Standard*/
+}
+
+/*#chartOne {*/
+/*height: 200px;*/
+/*}*/

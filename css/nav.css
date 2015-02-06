@@ -1,0 +1,87 @@
+nav {
+    background-color:#292929;
+    border-bottom: 5px solid #303030;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+/*    width: 940px; */
+    z-index: 1337}
+
+nav ul {
+    padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	width: 960px;
+    display:block;
+    z-index: 1336;
+
+}
+
+nav ul li {
+	float:left;
+	display:list-item;
+	list-style: none;
+
+	background-color:#292929;
+
+	z-index: inherit;
+}
+
+/*nav ul li:last-child {*/
+/*    background-color: red;*/
+/*}*/
+
+nav ul li a {
+	display:block;
+	padding:10px 5px;
+	margin-left: 2px;
+	color:#ccc;
+	font-size:20px;
+	text-decoration:none;
+	font-family: sans-serif;
+    z-index: inherit
+}
+
+li a:hover { background-color: #303030; }
+
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content: ' \2771';
+                font-size: 14px;}
+li > a:only-child:after { content: ''; }
+
+
+/* The Dropdown Styles */
+/* =================== */
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+    top: 41px;
+    z-index: inherit
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:list-item;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	position: relative;
+	border-bottom:none;
+    z-index: inherit
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: absolute relative;
+	top:-41px;
+	left:170px;
+}
+
+
