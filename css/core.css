@@ -1,7 +1,7 @@
 body {
+    background-attachment: fixed;
     background-color: #000;
     background-image: url(http://silverfox.local/960/images/150112-N-TX848-004.JPG);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -65,11 +65,11 @@ height: 300px;
 
 .footer {
 	background:#292929;
-	width:100%;
-	height:58px;
-	position: absolute, relative;
 	bottom:0;
-	left:0;
+    height:58px;
+    left:0;
+    position: relative;
+    width:100%;
 }
 
 .grad {
