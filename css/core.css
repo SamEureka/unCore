@@ -78,7 +78,3 @@ height: 300px;
   background: -moz-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Fx 3.6-15*/
   background: linear-gradient(to right, rgba(29,29,29,0.4), rgba(29,29,29,0.8)); /*Standard*/
 }
-
-/*#chartOne {*/
-/*height: 200px;*/
-/*}*/
