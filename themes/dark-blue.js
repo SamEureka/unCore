@@ -10,12 +10,12 @@ Highcharts.theme = {
 		backgroundColor: {
 			linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
 			stops: [
-				[0, 'rgb(48, 48, 96)'],
-				[1, 'rgb(0, 0, 0)']
+				[0.5, 'rgba(48, 48, 96, 0.5)'],
+				[0.8, 'rgba(0, 0, 0, 0.8)']
 			]
 		},
 		borderColor: '#000000',
-		borderWidth: 2,
+		borderWidth: 0,
 		className: 'dark-container',
 		plotBackgroundColor: 'rgba(255, 255, 255, .1)',
 		plotBorderColor: '#CCCCCC',
@@ -38,7 +38,7 @@ Highcharts.theme = {
 		gridLineWidth: 1,
 		labels: {
 			style: {
-				color: '#A0A0A0'
+				color: '#fff'
 			}
 		},
 		lineColor: '#A0A0A0',
@@ -74,7 +74,7 @@ Highcharts.theme = {
 		}
 	},
 	tooltip: {
-		backgroundColor: 'rgba(0, 0, 0, 0.75)',
+		backgroundColor: 'rgba(0, 0, 0, 0.3)',
 		style: {
 			color: '#F0F0F0'
 		}
@@ -180,8 +180,8 @@ Highcharts.theme = {
 					fill: {
 						linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
 						stops: [
-							[0.1, '#000'],
-							[0.3, '#333']
+							[0.5, '#000'],
+							[0.7, '#333']
 						]
 					},
 					stroke: '#000000',
@@ -196,7 +196,7 @@ Highcharts.theme = {
 			color: 'silver'
 		},
 		labelStyle: {
-			color: 'silver'
+			color: '#fff'
 		}
 	},
 
@@ -235,8 +235,8 @@ Highcharts.theme = {
 		trackBackgroundColor: {
 			linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
 			stops: [
-				[0, '#000'],
-				[1, '#333']
+				[0.4, '#000'],
+				[0.6, '#333']
 			]
 		},
 		trackBorderColor: '#666'
@@ -244,8 +244,8 @@ Highcharts.theme = {
 
 	// special colors for some of the
 	legendBackgroundColor: 'rgba(0, 0, 0, 0.5)',
-	background2: 'rgb(35, 35, 70)',
-	dataLabelsColor: '#444',
+	background2: 'rgba(35, 35, 70,0.6)',
+	dataLabelsColor: '#ccc',
 	textColor: '#C0C0C0',
 	maskColor: 'rgba(255,255,255,0.3)'
 };

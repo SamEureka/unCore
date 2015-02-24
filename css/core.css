@@ -1,7 +1,7 @@
 body {
     background-attachment: fixed;
     background-color: #000;
-    background-image: url(http://silverfox.local/960/images/150112-N-TX848-004.JPG);
+    background-image: url(http://silverfox.local/unCore/images/150112-N-TX848-004sd.JPG);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -59,6 +59,10 @@ body {
 height: 200px;
 }
 
+.chart-height-250 {
+height: 250px;
+}
+
 .chart-height-300 {
 height: 300px;
 }
@@ -77,4 +81,7 @@ height: 300px;
   background: -o-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Opera 11.1-12*/
   background: -moz-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Fx 3.6-15*/
   background: linear-gradient(to right, rgba(29,29,29,0.4), rgba(29,29,29,0.8)); /*Standard*/
+}
+.main-div-top-padding {
+    padding-top: 60px;
 }

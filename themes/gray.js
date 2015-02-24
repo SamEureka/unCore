@@ -112,6 +112,11 @@ Highcharts.theme = {
 				lineColor: '#333'
 			}
 		},
+        pie: {
+            dataLabels: {
+                color: '#ccc'
+            }
+        },
 		spline: {
 			marker: {
 				lineColor: '#333'
