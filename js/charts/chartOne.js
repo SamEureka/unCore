@@ -25,7 +25,7 @@ $(function () {
                 }
             },
             title: {
-                text: 'Live random data'
+                text: 'Alert Counts (random data)'
             },
             xAxis: {
                 type: 'datetime',

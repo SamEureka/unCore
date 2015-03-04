@@ -1,0 +1,95 @@
+<html>
+<head>
+<!-- Styles -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive.css">
+<!--<link rel="stylesheet" type="text/css" href="css/text.css">-->
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/core.css">
+<!-- js libraries -->
+<script src="js/jquery.js"></script>
+<script src="js/adapt.min.js"></script>
+<title>Unsemantic Test</title>
+
+
+</head>
+<body>
+<div class="grid-container">
+<div class="grid-100">
+
+    
+<header>
+    
+<nav>
+    <div class="logo"> <img src="images/logo.png"></div>
+    <ul>
+        <li><strong><em><a href="#">NCDOC - Cyber Core ||</a></em></strong></li>
+        <li><a href="#">Dashboards</a>
+        <!-- First Tier Drop Down -->
+        <ul>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Plugins</a></li>
+            <li><a href="#">Tutorials</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Reports</a>
+        <!-- First Tier Drop Down -->
+        <ul>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Tutorials</a>
+        	<!-- Second Tier Drop Down -->
+            <ul>
+                <li><a href="#">HTML/CSS</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">Other</a></li>
+            </ul>
+            </li>
+        </ul>
+        </li>
+        <li><a href="#">Fleet Support</a></li>
+        <li><a href="#">Widget Lab</a></li>
+        <li><a href="#">My Account</a></li>
+    </ul>
+</nav>
+    </header> -->
+
+<!--<div class="container_12">-->
+<!--    <div class="grid_4 red"></div>-->
+<!--    <div class="grid_4 green"></div>-->
+<!--    <div class="grid_4 blue"></div>-->
+
+<div class="grid-container main-div-top-padding"></div>
+
+<div class="grid-container">
+    <div id="chartTwo" class="grid-33 chart-height-200">Oh, Shit... something went wrong :-(</div>
+    <div id="chartOne" class="grid-66 chart-height-200">Oh, shit... something went wrong :-( </div>
+    <div class="grid-100" style="padding: 2.5px"></div>
+    <div id="chartThree" class="grid-66 chart-height-200">Oh, shit... something went wrong :-( </div>
+    <div id="chartFour" class="grid-33 chart-height-200">Oh, Shit... something went wrong :-(</div>
+    <div class="grid-container" style="padding: 2.5px"></div>
+    <div id="chartSix" class="grid-100 chart-height-300">Oh, Shit... something went wrong :-(</div>
+    <div class="grid-100" style="padding: 5px"></div>
+<!--    <div id="chartFive" class="grid-100"></div>-->
+    </div>
+
+
+<!--</div>-->
+    </div>
+
+<script src="js/highcharts.js"></script>
+<!--<script src="js/highstock.js"></script>-->
+<script src="js/charts/chartTwo.js"></script>
+<script src="js/charts/chartOne.js"></script>
+<script src="js/charts/chartThree.js"></script>
+<script src="js/charts/chartFour.js"></script>
+<script src="js/charts/chartSix.js"></script>
+<!--<script src="js/charts/chartFive.js"></script>-->
+<script src="themes/gray.js"></script>
+<!--    <script src="themes/dark-blue.js"></script>-->
+<div class="container_12">
+<div class="footer">Foot</div>
+    </div>
+</body>
+
+</html>
