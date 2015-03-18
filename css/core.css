@@ -81,6 +81,8 @@ height: 300px;
   background: -o-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Opera 11.1-12*/
   background: -moz-linear-gradient(right,rgba(29,29,29,0.4),rgba(29,29,29,0.8)); /*Fx 3.6-15*/
   background: linear-gradient(to right, rgba(29,29,29,0.4), rgba(29,29,29,0.8)); /*Standard*/
+  color: #CCC;
+  font-family: sans-serif;
 }
 /*.main-div-top-padding {*/
 /*    padding-top: 60px;*/
