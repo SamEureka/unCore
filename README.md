@@ -1,7 +1,4 @@
 # unCore
-#### New Core design
+#### New Core design ideas
 
-Cleaning up the design... new CSS, new UX/UI. Getting rid of all those f-ing nested boxes
-
-//SamEureka
-
+http://sameureka.github.io/unCore/
